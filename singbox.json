@@ -105,6 +105,98 @@
     },
     {
       "type": "vless",
+      "tag": "سرویس رایگان نوا @irnova 104.26.7.24:2087 [VLESS]",
+      "server": "104.26.7.24",
+      "server_port": 2087,
+      "uuid": "c84b329d-04d0-405b-973d-257e7ad303ae",
+      "transport": {
+        "path": "/73080e8e293c",
+        "type": "ws",
+        "headers": {
+          "Host": "ivory-fern-e4f0-44a3b41c.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ivory-fern-e4f0-44a3b41c.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا @irnova 104.26.7.24:443 [VLESS]",
+      "server": "104.26.7.24",
+      "server_port": 443,
+      "uuid": "c84b329d-04d0-405b-973d-257e7ad303ae",
+      "transport": {
+        "path": "/73080e8e293c",
+        "type": "ws",
+        "headers": {
+          "Host": "ivory-fern-e4f0-44a3b41c.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ivory-fern-e4f0-44a3b41c.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا @irnova 162.159.245.22:2087 [VLESS]",
+      "server": "162.159.245.22",
+      "server_port": 2087,
+      "uuid": "c84b329d-04d0-405b-973d-257e7ad303ae",
+      "transport": {
+        "path": "/73080e8e293c",
+        "type": "ws",
+        "headers": {
+          "Host": "ivory-fern-e4f0-44a3b41c.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ivory-fern-e4f0-44a3b41c.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا @irnova 162.159.245.22:443 [VLESS]",
+      "server": "162.159.245.22",
+      "server_port": 443,
+      "uuid": "c84b329d-04d0-405b-973d-257e7ad303ae",
+      "transport": {
+        "path": "/73080e8e293c",
+        "type": "ws",
+        "headers": {
+          "Host": "ivory-fern-e4f0-44a3b41c.pages.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ivory-fern-e4f0-44a3b41c.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "سرویس رایگان نوا @irnova 104.18.182.156:443 [VLESS]",
       "server": "104.18.182.156",
       "server_port": 443,
@@ -595,6 +687,10 @@
         "🔮 负载均衡",
         "DIRECT",
         "سرویس رایگان نوا @irnova ivory-fern-e4f0-44a3b41c.pages.dev:443 [VLESS]",
+        "سرویس رایگان نوا @irnova 104.26.7.24:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova 104.26.7.24:443 [VLESS]",
+        "سرویس رایگان نوا @irnova 162.159.245.22:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova 162.159.245.22:443 [VLESS]",
         "سرویس رایگان نوا @irnova 104.18.182.156:443 [VLESS]",
         "سرویس رایگان نوا @irnova 104.20.5.120:443 [VLESS]",
         "سرویس رایگان نوا @irnova 104.26.0.99:2083 [VLESS]",
@@ -625,6 +721,10 @@
       "tag": "♻️ 自动选择",
       "outbounds": [
         "سرویس رایگان نوا @irnova ivory-fern-e4f0-44a3b41c.pages.dev:443 [VLESS]",
+        "سرویس رایگان نوا @irnova 104.26.7.24:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova 104.26.7.24:443 [VLESS]",
+        "سرویس رایگان نوا @irnova 162.159.245.22:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova 162.159.245.22:443 [VLESS]",
         "سرویس رایگان نوا @irnova 104.18.182.156:443 [VLESS]",
         "سرویس رایگان نوا @irnova 104.20.5.120:443 [VLESS]",
         "سرویس رایگان نوا @irnova 104.26.0.99:2083 [VLESS]",
@@ -656,6 +756,10 @@
       "tag": "🔯 故障转移",
       "outbounds": [
         "سرویس رایگان نوا @irnova ivory-fern-e4f0-44a3b41c.pages.dev:443 [VLESS]",
+        "سرویس رایگان نوا @irnova 104.26.7.24:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova 104.26.7.24:443 [VLESS]",
+        "سرویس رایگان نوا @irnova 162.159.245.22:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova 162.159.245.22:443 [VLESS]",
         "سرویس رایگان نوا @irnova 104.18.182.156:443 [VLESS]",
         "سرویس رایگان نوا @irnova 104.20.5.120:443 [VLESS]",
         "سرویس رایگان نوا @irnova 104.26.0.99:2083 [VLESS]",
@@ -684,6 +788,10 @@
       "tag": "🔮 负载均衡",
       "outbounds": [
         "سرویس رایگان نوا @irnova ivory-fern-e4f0-44a3b41c.pages.dev:443 [VLESS]",
+        "سرویس رایگان نوا @irnova 104.26.7.24:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova 104.26.7.24:443 [VLESS]",
+        "سرویس رایگان نوا @irnova 162.159.245.22:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova 162.159.245.22:443 [VLESS]",
         "سرویس رایگان نوا @irnova 104.18.182.156:443 [VLESS]",
         "سرویس رایگان نوا @irnova 104.20.5.120:443 [VLESS]",
         "سرویس رایگان نوا @irnova 104.26.0.99:2083 [VLESS]",
@@ -738,6 +846,10 @@
         "🔯 故障转移",
         "🔮 负载均衡",
         "سرویس رایگان نوا @irnova ivory-fern-e4f0-44a3b41c.pages.dev:443 [VLESS]",
+        "سرویس رایگان نوا @irnova 104.26.7.24:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova 104.26.7.24:443 [VLESS]",
+        "سرویس رایگان نوا @irnova 162.159.245.22:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova 162.159.245.22:443 [VLESS]",
         "سرویس رایگان نوا @irnova 104.18.182.156:443 [VLESS]",
         "سرویس رایگان نوا @irnova 104.20.5.120:443 [VLESS]",
         "سرویس رایگان نوا @irnova 104.26.0.99:2083 [VLESS]",
@@ -774,6 +886,10 @@
         "🔯 故障转移",
         "🔮 负载均衡",
         "سرویس رایگان نوا @irnova ivory-fern-e4f0-44a3b41c.pages.dev:443 [VLESS]",
+        "سرویس رایگان نوا @irnova 104.26.7.24:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova 104.26.7.24:443 [VLESS]",
+        "سرویس رایگان نوا @irnova 162.159.245.22:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova 162.159.245.22:443 [VLESS]",
         "سرویس رایگان نوا @irnova 104.18.182.156:443 [VLESS]",
         "سرویس رایگان نوا @irnova 104.20.5.120:443 [VLESS]",
         "سرویس رایگان نوا @irnova 104.26.0.99:2083 [VLESS]",
@@ -805,6 +921,10 @@
       "outbounds": [
         "DIRECT",
         "سرویس رایگان نوا @irnova ivory-fern-e4f0-44a3b41c.pages.dev:443 [VLESS]",
+        "سرویس رایگان نوا @irnova 104.26.7.24:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova 104.26.7.24:443 [VLESS]",
+        "سرویس رایگان نوا @irnova 162.159.245.22:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova 162.159.245.22:443 [VLESS]",
         "سرویس رایگان نوا @irnova 104.18.182.156:443 [VLESS]",
         "سرویس رایگان نوا @irnova 104.20.5.120:443 [VLESS]",
         "سرویس رایگان نوا @irnova 104.26.0.99:2083 [VLESS]",
