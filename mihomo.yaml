@@ -32,6 +32,10 @@ proxies:
   - {name: "📢 https://t.me/irnova", server: 192.0.2.1, port: 443, type: vmess, uuid: c84b329d-04d0-405b-973d-257e7ad303ae, alterId: 0, cipher: auto, tls: true, servername: "ivory-fern-e4f0-44a3b41c.pages.dev", network: ws, ws-opts: {path: "/?fake=1", headers: {Host: "ivory-fern-e4f0-44a3b41c.pages.dev"}}, udp: false}
   - {name: "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01", server: 192.0.2.1, port: 443, type: vmess, uuid: c84b329d-04d0-405b-973d-257e7ad303ae, alterId: 0, cipher: auto, tls: true, servername: "ivory-fern-e4f0-44a3b41c.pages.dev", network: ws, ws-opts: {path: "/?fake=1", headers: {Host: "ivory-fern-e4f0-44a3b41c.pages.dev"}}, udp: false}
   - {name: "سرویس رایگان نوا @irnova ivory-fern-e4f0-44a3b41c.pages.dev:443 [VLESS]", server: ivory-fern-e4f0-44a3b41c.pages.dev, port: 443, type: vless, uuid: c84b329d-04d0-405b-973d-257e7ad303ae, tls: true, skip-cert-verify: false, servername: ivory-fern-e4f0-44a3b41c.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /73080e8e293c, headers: {Host: ivory-fern-e4f0-44a3b41c.pages.dev}}}
+  - {name: "سرویس رایگان نوا @irnova 104.26.7.24:2087 [VLESS]", server: 104.26.7.24, port: 2087, type: vless, uuid: c84b329d-04d0-405b-973d-257e7ad303ae, tls: true, skip-cert-verify: false, servername: ivory-fern-e4f0-44a3b41c.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /73080e8e293c, headers: {Host: ivory-fern-e4f0-44a3b41c.pages.dev}}}
+  - {name: "سرویس رایگان نوا @irnova 104.26.7.24:443 [VLESS]", server: 104.26.7.24, port: 443, type: vless, uuid: c84b329d-04d0-405b-973d-257e7ad303ae, tls: true, skip-cert-verify: false, servername: ivory-fern-e4f0-44a3b41c.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /73080e8e293c, headers: {Host: ivory-fern-e4f0-44a3b41c.pages.dev}}}
+  - {name: "سرویس رایگان نوا @irnova 162.159.245.22:2087 [VLESS]", server: 162.159.245.22, port: 2087, type: vless, uuid: c84b329d-04d0-405b-973d-257e7ad303ae, tls: true, skip-cert-verify: false, servername: ivory-fern-e4f0-44a3b41c.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /73080e8e293c, headers: {Host: ivory-fern-e4f0-44a3b41c.pages.dev}}}
+  - {name: "سرویس رایگان نوا @irnova 162.159.245.22:443 [VLESS]", server: 162.159.245.22, port: 443, type: vless, uuid: c84b329d-04d0-405b-973d-257e7ad303ae, tls: true, skip-cert-verify: false, servername: ivory-fern-e4f0-44a3b41c.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /73080e8e293c, headers: {Host: ivory-fern-e4f0-44a3b41c.pages.dev}}}
   - {name: "سرویس رایگان نوا @irnova 104.18.182.156:443 [VLESS]", server: 104.18.182.156, port: 443, type: vless, uuid: c84b329d-04d0-405b-973d-257e7ad303ae, tls: true, skip-cert-verify: false, servername: ivory-fern-e4f0-44a3b41c.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /73080e8e293c, headers: {Host: ivory-fern-e4f0-44a3b41c.pages.dev}}}
   - {name: "سرویس رایگان نوا @irnova 104.20.5.120:443 [VLESS]", server: 104.20.5.120, port: 443, type: vless, uuid: c84b329d-04d0-405b-973d-257e7ad303ae, tls: true, skip-cert-verify: false, servername: ivory-fern-e4f0-44a3b41c.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /73080e8e293c, headers: {Host: ivory-fern-e4f0-44a3b41c.pages.dev}}}
   - {name: "سرویس رایگان نوا @irnova 104.26.0.99:2083 [VLESS]", server: 104.26.0.99, port: 2083, type: vless, uuid: c84b329d-04d0-405b-973d-257e7ad303ae, tls: true, skip-cert-verify: false, servername: ivory-fern-e4f0-44a3b41c.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /73080e8e293c, headers: {Host: ivory-fern-e4f0-44a3b41c.pages.dev}}}
@@ -64,6 +68,10 @@ proxy-groups:
       - 🔮 负载均衡
       - DIRECT
       - سرویس رایگان نوا @irnova ivory-fern-e4f0-44a3b41c.pages.dev:443 [VLESS]
+      - سرویس رایگان نوا @irnova 104.26.7.24:2087 [VLESS]
+      - سرویس رایگان نوا @irnova 104.26.7.24:443 [VLESS]
+      - سرویس رایگان نوا @irnova 162.159.245.22:2087 [VLESS]
+      - سرویس رایگان نوا @irnova 162.159.245.22:443 [VLESS]
       - سرویس رایگان نوا @irnova 104.18.182.156:443 [VLESS]
       - سرویس رایگان نوا @irnova 104.20.5.120:443 [VLESS]
       - سرویس رایگان نوا @irnova 104.26.0.99:2083 [VLESS]
@@ -92,6 +100,10 @@ proxy-groups:
     tolerance: 50
     proxies:
       - سرویس رایگان نوا @irnova ivory-fern-e4f0-44a3b41c.pages.dev:443 [VLESS]
+      - سرویس رایگان نوا @irnova 104.26.7.24:2087 [VLESS]
+      - سرویس رایگان نوا @irnova 104.26.7.24:443 [VLESS]
+      - سرویس رایگان نوا @irnova 162.159.245.22:2087 [VLESS]
+      - سرویس رایگان نوا @irnova 162.159.245.22:443 [VLESS]
       - سرویس رایگان نوا @irnova 104.18.182.156:443 [VLESS]
       - سرویس رایگان نوا @irnova 104.20.5.120:443 [VLESS]
       - سرویس رایگان نوا @irnova 104.26.0.99:2083 [VLESS]
@@ -119,6 +131,10 @@ proxy-groups:
     interval: 180
     proxies:
       - سرویس رایگان نوا @irnova ivory-fern-e4f0-44a3b41c.pages.dev:443 [VLESS]
+      - سرویس رایگان نوا @irnova 104.26.7.24:2087 [VLESS]
+      - سرویس رایگان نوا @irnova 104.26.7.24:443 [VLESS]
+      - سرویس رایگان نوا @irnova 162.159.245.22:2087 [VLESS]
+      - سرویس رایگان نوا @irnova 162.159.245.22:443 [VLESS]
       - سرویس رایگان نوا @irnova 104.18.182.156:443 [VLESS]
       - سرویس رایگان نوا @irnova 104.20.5.120:443 [VLESS]
       - سرویس رایگان نوا @irnova 104.26.0.99:2083 [VLESS]
@@ -147,6 +163,10 @@ proxy-groups:
     interval: 180
     proxies:
       - سرویس رایگان نوا @irnova ivory-fern-e4f0-44a3b41c.pages.dev:443 [VLESS]
+      - سرویس رایگان نوا @irnova 104.26.7.24:2087 [VLESS]
+      - سرویس رایگان نوا @irnova 104.26.7.24:443 [VLESS]
+      - سرویس رایگان نوا @irnova 162.159.245.22:2087 [VLESS]
+      - سرویس رایگان نوا @irnova 162.159.245.22:443 [VLESS]
       - سرویس رایگان نوا @irnova 104.18.182.156:443 [VLESS]
       - سرویس رایگان نوا @irnova 104.20.5.120:443 [VLESS]
       - سرویس رایگان نوا @irnova 104.26.0.99:2083 [VLESS]
@@ -194,6 +214,10 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - سرویس رایگان نوا @irnova ivory-fern-e4f0-44a3b41c.pages.dev:443 [VLESS]
+      - سرویس رایگان نوا @irnova 104.26.7.24:2087 [VLESS]
+      - سرویس رایگان نوا @irnova 104.26.7.24:443 [VLESS]
+      - سرویس رایگان نوا @irnova 162.159.245.22:2087 [VLESS]
+      - سرویس رایگان نوا @irnova 162.159.245.22:443 [VLESS]
       - سرویس رایگان نوا @irnova 104.18.182.156:443 [VLESS]
       - سرویس رایگان نوا @irnova 104.20.5.120:443 [VLESS]
       - سرویس رایگان نوا @irnova 104.26.0.99:2083 [VLESS]
@@ -227,6 +251,10 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - سرویس رایگان نوا @irnova ivory-fern-e4f0-44a3b41c.pages.dev:443 [VLESS]
+      - سرویس رایگان نوا @irnova 104.26.7.24:2087 [VLESS]
+      - سرویس رایگان نوا @irnova 104.26.7.24:443 [VLESS]
+      - سرویس رایگان نوا @irnova 162.159.245.22:2087 [VLESS]
+      - سرویس رایگان نوا @irnova 162.159.245.22:443 [VLESS]
       - سرویس رایگان نوا @irnova 104.18.182.156:443 [VLESS]
       - سرویس رایگان نوا @irnova 104.20.5.120:443 [VLESS]
       - سرویس رایگان نوا @irnova 104.26.0.99:2083 [VLESS]
